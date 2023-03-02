@@ -5,7 +5,7 @@ def start_game():
     print("\"What's up bossman, what can I get for you?\"")
     print("")
     choice = input("Will you order water, (1) Mt. Dew, (2) or nothing? (3): ")
-    print("")
+    print("") #what does this do? 
     if choice == "1":
         water()
     elif choice == "2":
@@ -18,6 +18,7 @@ def start_game():
         print("*Dude, please play along.*")
         print("")
         start_game()
+
 def water():
     print("The cashier gives you a small cup of water.")
     print("\"Will there be anything else?\"")
@@ -117,3 +118,7 @@ def outside():
         print("")
         print("YOU HAVE ACHIEVED THE WORST ENDING!")
 start_game()
+
+# Add code to ask, would you play again possibly to start the game over so we can go over different choices
+#Is there a way to a part to check whats in your inventory? 
+#Love this code very fun.
